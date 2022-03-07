@@ -17,6 +17,15 @@ The results for the total summary and lot summary respectively are as follows:
 The current design specifications dictate that the variance of suspension coils must not exceed 100 pounds per square inch. The total summary for the three lots combined would meet the specifications with a variance of ~62.3, but the individual lot summaries indicate that grouping the results by lot tells a different story. The variances for Lot 1 and Lot 2 are both very minor, with the variance for Lot 1 being smaller than one. Comparatively, Lot 3 has a variance of 170, close to two times the specification's limitation.
 
 ## T-Tests on Suspension Coils
+The t test results for all lots, lot 1, lot 2, and lot 3 respectively are as follows:
+
+![image](https://user-images.githubusercontent.com/92831138/157057384-1338298b-6cbd-43c0-b02d-9d3a9eb45332.png)
+
+![image](https://user-images.githubusercontent.com/92831138/157057429-78694b31-19b2-4574-8408-0502e8778679.png)
+
+![image](https://user-images.githubusercontent.com/92831138/157057479-d7214877-b8da-447a-9b00-fa138966d0f9.png)
+
+![image](https://user-images.githubusercontent.com/92831138/157057524-124208b2-55a3-45ba-bc33-f6e02d4490f5.png)
 
 
 ## Study Design: MechaCar vs Competition
