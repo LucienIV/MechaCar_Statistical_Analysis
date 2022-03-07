@@ -5,7 +5,7 @@ The results for the linear regression were as follows:
 
 ![image](https://user-images.githubusercontent.com/92831138/156824679-e065369f-118c-433a-90ee-e9956877f3c8.png)
 
-As can be seens, the angle of the spoiler and the presence of All Wheel Drive provide a non-random amount of variance to the Miles Per Gallon values in the dataset. The weight of the vehicle also provides a non-random amount of variance, albeit less than the prior two variables. The p value returned for the intercept indicated that the null hypothesis can be rejected as the slope is not considered to be zero. The R-Squared value indicates that the linear model will predict the mpg of the prototypes with relative effectiness. As it stands with the current data the model can predict with rouoghly seventy percent accuracy. 
+As can be seen, the angle of the spoiler and the presence of All Wheel Drive provide a non-random amount of variance to the Miles Per Gallon values in the dataset. The weight of the vehicle also provides a non-random amount of variance, albeit less than the prior two variables. The p value returned for the intercept indicated that the null hypothesis can be rejected as the slope is not considered to be zero. The R-Squared value indicates that the linear model will predict the mpg of the prototypes with relative effectiveness. As it stands with the current data the model can predict with roughly seventy percent accuracy. 
 
 ## Summary Statistics on Suspension Coils
 The results for the total summary and lot summary respectively are as follows:
@@ -37,3 +37,4 @@ Lot 3 has a p value of 0.04, below the established significance level of 0.05, i
 
 ## Study Design: MechaCar vs Competition
 
+A statistical study to quantify the MechaCar's performance against competition could entail measuring the fuel efficiency for each model. A way to test this metric would be to measure the fuel efficiency of a large sampling of both models in controlled environments. The alternative hypothesis would support the argument that the MechaCar has better fuel efficiency than the competition while the null hypothesis would support an argument that it gets worse fuel efficiency or at least there is no real difference. The best test for this study would be a two-sample t-test using data for each model. For this test, a sampling of the fuel efficiency would be needed for each model. A controlled environment would be used to eliminate as many extra variables as possible.
